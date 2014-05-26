@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+require('nodetime').profile({
+    accountKey: process.env.PROFILER_KEY,
+    appName: 'PeerJS Server'
+  });
+
 
 var path = require('path')
   , pkg = require('../package.json')
