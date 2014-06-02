@@ -13,9 +13,10 @@
   "author": "Michelle Bu, Eric Zhang",
   "license": "MIT",
   "dependencies": {
+    "basic-auth-parser": "0.0.2",
+    "optimist": "*",
     "restify": "~2.6.0",
-    "ws": "~0.4.25",
-    "optimist": "*"
+    "ws": "~0.4.25"
   },
   "devDependencies": {
     "expect.js": "*",

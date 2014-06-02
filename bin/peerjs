@@ -58,6 +58,12 @@ var path = require('path')
       allow_discovery: {
         demand: false,
         description: 'allow discovery of peers'
+      },
+      auth: {
+        demand: false,
+        alias: 'a',
+        description: 'basic auth password for stats',
+        default: 'peerjs'
       }
     })
     .boolean('allow_discovery')
